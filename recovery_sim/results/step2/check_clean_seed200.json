@@ -1,0 +1,47 @@
+{
+  "mode": "clean",
+  "seed": 200,
+  "episodes": 200,
+  "commit": "6e8c4f5",
+  "by_type": {
+    "none": {
+      "attempts": 200,
+      "successes": 200,
+      "rate": 1.0,
+      "wilson95": [
+        0.9811546733310369,
+        0.9999999999999999
+      ],
+      "violation_episodes": 0,
+      "train_frames": {
+        "min": 111,
+        "median": 125.0,
+        "max": 139
+      }
+    }
+  },
+  "total": {
+    "attempts": 200,
+    "successes": 200,
+    "rate": 1.0,
+    "wilson95": [
+      0.9811546733310369,
+      0.9999999999999999
+    ],
+    "violation_episodes": 0
+  },
+  "pass": true,
+  "failures": [],
+  "violations": [],
+  "info": {
+    "late_retry_contact_episodes": 0,
+    "trigger_z": {
+      "min": null,
+      "max": null
+    },
+    "shift_hand_z": {
+      "min": null,
+      "max": null
+    }
+  }
+}

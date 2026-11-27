@@ -1,0 +1,62 @@
+{
+  "mode": "separate",
+  "seed": 100,
+  "episodes": 200,
+  "commit": "6e8c4f5",
+  "by_type": {
+    "early": {
+      "attempts": 100,
+      "successes": 100,
+      "rate": 1.0,
+      "wilson95": [
+        0.9630065012310038,
+        1.0
+      ],
+      "violation_episodes": 0,
+      "train_frames": {
+        "min": 48,
+        "median": 51.0,
+        "max": 55
+      }
+    },
+    "late": {
+      "attempts": 100,
+      "successes": 100,
+      "rate": 1.0,
+      "wilson95": [
+        0.9630065012310038,
+        1.0
+      ],
+      "violation_episodes": 0,
+      "train_frames": {
+        "min": 78,
+        "median": 81.0,
+        "max": 86
+      }
+    }
+  },
+  "total": {
+    "attempts": 200,
+    "successes": 200,
+    "rate": 1.0,
+    "wilson95": [
+      0.9811546733310369,
+      0.9999999999999999
+    ],
+    "violation_episodes": 0
+  },
+  "pass": true,
+  "failures": [],
+  "violations": [],
+  "info": {
+    "late_retry_contact_episodes": 0,
+    "trigger_z": {
+      "min": 0.12034808425070519,
+      "max": 0.1599652515543324
+    },
+    "shift_hand_z": {
+      "min": 0.11170761287212372,
+      "max": 0.15708544105291367
+    }
+  }
+}
