@@ -69,7 +69,7 @@ Use many narrow Haiku subagents (`model: "haiku"`), up to 8 running at once, abo
 - Do not start steps 3 to 9. No LeRobot, training or rented machines.
 - Install nothing new without asking. Delete only files you created in this session.
 - The repo is public. Never commit keys, tokens, personal details, datasets or virtual environments.
-- Commit locally on `step2-expert` with a GitHub no-reply email. Ask before pushing or merging into `main`.
+- Commit locally on `step2-expert` with a GitHub no-reply email. Push the branch after every commit without asking. Ask before merging into `main`.
 
 ## Final report
 Results per mode, shift type and seed; fixes made and why; typical frames per episode compared with the plan's N = 6,000; agents used; anything unverified. Then list the preview paths.
