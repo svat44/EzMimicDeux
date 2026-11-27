@@ -103,6 +103,8 @@ def in_workspace(xy):
 
 
 class Episode:
+    on_substep = None
+
     def __init__(self, model, rng, renderer=None, shift_type="none"):
         if shift_type not in ("none", "early", "late"):
             raise ValueError(f"bad shift_type: {shift_type}")
@@ -116,18 +118,20 @@ class Episode:
         self.grip = OPEN
         self.data.qpos[2] = HIGH_Z - HAND_Z0
         self._apply()
-        for _ in range(200):
-            mujoco.mj_step(model, self.data)
         self.frames = []
         self.shift_frame = None
-        self.block_before = None
-        self.block_after = None
-        self.trigger_z = rng.uniform(TRIGGER_MIN, TRIGGER_MAX) if shift_type == "early" else None
         self.block_body = model.body("block").id
         hand_bodies = [model.body(n).id for n in ("hand", "left", "right")]
         self.block_geoms = [g for g in range(model.ngeom) if model.geom_bodyid[g] == self.block_body]
         self.hand_geoms = [g for g in range(model.ngeom) if model.geom_bodyid[g] in hand_bodies]
         self.block_dof = model.joint("block").dofadr[0]
+        for _ in range(200):
+            mujoco.mj_step(model, self.data)
+            if self.on_substep is not None:
+                self.on_substep()
+        self.block_before = None
+        self.block_after = None
+        self.trigger_z = rng.uniform(TRIGGER_MIN, TRIGGER_MAX) if shift_type == "early" else None
 
     def _apply(self):
         x, y, z = self.target
@@ -181,6 +185,8 @@ class Episode:
         self._apply()
         for _ in range(SIM_STEPS):
             mujoco.mj_step(self.model, self.data)
+            if self.on_substep is not None:
+                self.on_substep()
         if self.shift_type == "early" and self.shift_frame is None and self.hand_z() <= self.trigger_z:
             self._do_shift()
 
