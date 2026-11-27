@@ -6,3 +6,6 @@ data/
 smoke/
 .orchestration/
 .env
+.venv-lerobot/
+recovery_sim/raw/
+recovery_sim/datasets/
