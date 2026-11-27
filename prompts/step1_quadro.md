@@ -34,26 +34,37 @@ Control rate is 20 Hz. Modes stay `clean`, `embedded`, `separate`.
 - Keep the existing flags. `--preview` writes one GIF for an early episode and one for a late episode, with context frames visibly marked.
 
 ## Orchestration
-Your job is to split the work, write instructions, judge evidence and integrate. Spawn Haiku subagents (`model: "haiku"`) for the work. Use as many as there are genuinely independent tasks, with up to 8 running at once.
+Your job is to split the work, write instructions, judge evidence and integrate. Use many narrow Haiku subagents (`model: "haiku"`), about 23 in total, with up to 8 running at once. Each sees only the context for its own job, and is spawned once and then reused.
 
-Suggested roles:
-| Role | Output |
-|---|---|
-| Spec auditor | Checklist mapping every requirement above to the code |
-| Shift builder | Shift sampling, overlap rejection, triggers |
-| Expert builder | Early redirect and late retry |
-| Saving builder | Modes, `train` mask, metadata, budget, balance |
-| Test writers (one per requirement group) | Independent tests in `recovery_sim/tests/`, written from this spec, not from the code |
-| Runners (one per mode and seed) | Commands, exit codes and numbers, each writing to its own folder under `smoke/` |
-| Reviewers (several, one concern each) | Defects with file, line, evidence and how to reproduce |
-| Docs writer | `recovery_sim/README.md` |
+| Agent | Count | Output | Gets only |
+|---|---|---|---|
+| Spec auditor | 1 | Checklist mapping every requirement to the code | Required behaviour, `collect.py` |
+| Shift builder | 1 | Shift sampling, overlap rejection, triggers | Shift rules, scene XML, shift and trigger code |
+| Expert builder | 1 | Early redirect and late retry | Expert behaviour rules, movement and run code |
+| Saving builder | 1 | Modes, `train` mask, metadata, budget, balance | Mode, saving and record rules, recording and main code |
+| Test writers | 5: shifts, expert, saving, budget and balance, repeatability and shapes | Tests in `recovery_sim/tests/`, one file each | Their rules and the interface contract. No implementation code |
+| Runners | 9: one per mode and seed | Commands, exit codes and numbers, each in its own folder under `smoke/` | Their commands and where to write |
+| Reviewers | 4: shift geometry, expert behaviour, saved data, plan compliance | Defects with file, line, evidence and how to reproduce | Their rules, relevant code and diff |
+| Docs writer | 1 | `recovery_sim/README.md` | Final flags, outputs and commands |
+
+**Context packets**
+- Before spawning, write the interface contract in `.orchestration/contract.md`: function signatures, saved array names, types and shapes, and metadata fields. Builders and test writers follow it.
+- Write one packet per agent in `.orchestration/context/<agent>.md`: the task, only the spec text that applies, exact files and line ranges, what it may edit and what to return.
+- Tell each agent to read its packet and only what the packet lists. If it needs more, it asks you and you add just that.
+
+**Reuse**
+- Record each agent's ID in `.orchestration/board.md`.
+- Give later tasks to the same agent with `SendMessage`, which keeps its context. A new `Agent` call starts from nothing.
+- Follow-ups contain only the new defect, task or changed lines. Send them only to agents they affect.
+- After an edit, update line ranges for the affected agents.
+- Replace an agent only if it can no longer be continued or keeps repeating the same mistake.
 
 **Loop, once per round**
-1. **Instruct.** Each agent starts with no memory, so give it the relevant spec text, file paths, what it may edit, what to return and how it will be checked.
-2. **Run.** Only one agent may edit a given file at a time. Builders who share `collect.py` work one after another. Tests, runs and reviews may run in parallel after edits finish.
+1. **Instruct.** State the task, what may be edited, what to return and how it will be checked.
+2. **Run.** Only one agent edits a given file at a time, so the three builders work one after another. Test writers can work alongside them. Runners and reviewers work in parallel after edits finish. Ask for short replies, with details in report files.
 3. **Review.** Check claims against real command output and the diff. Reproduce each reported defect before assigning a fix. A subagent saying "passed" is not evidence.
 
-Agents share findings through files in `.orchestration/`: you keep `board.md` (tasks, owners, status, decisions), and each agent writes only its own report file.
+You keep `board.md` (tasks, owners, status, decisions). Each agent writes only its own report file in `.orchestration/`. You pass findings between agents, sending each only what applies to it.
 
 Stop looping when every check below passes. After 6 rounds, or if the same defect survives 3 fix attempts, stop and report what is blocking.
 
@@ -74,4 +85,4 @@ Stop looping when every check below passes. After 6 rounds, or if the same defec
 - Commit locally on `step1-collector`, using a GitHub no-reply email. Ask before pushing.
 
 ## Final report
-What changed; each "Done when" item with the command and result; success rates; rounds and number of agents used; anything unverified or still open. Then show the preview file paths so I can watch them.
+What changed; each "Done when" item with the command and result; success rates; rounds, agents spawned and any replaced; anything unverified or still open. Then show the preview file paths so I can watch them.
