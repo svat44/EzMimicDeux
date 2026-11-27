@@ -1,0 +1,36 @@
+\bsmoke (alarm|detector)s?\b
+\bcarbon monoxide\b
+\be-?bike|electric (bike|scooter)|thermal runaway\b
+\bwet.?bulb\b|\bheat index\b|\bindoor (temperature|heat)
+\bpulse oximet
+\bskin (tone|pigment|color)
+\bearbuds?\b|\bearphones?\b|\bheadphones?\b|\bsafe listening\b
+\bcutting boards?\b|\bnon.?stick\b|\btea ?bags?\b|\bbaby bottles?\b
+\bmicrofibers?\b|\bdryer\b
+\bstormwater\b|\bstorm drain|\bflood(ing)? sensor
+\bcooling (rate|curve)|\bdanger zone\b|\bleftovers?\b
+\bhumidity\b.*\b(pm2\.5|particulate)|\bpurpleair\b|\blow.cost (air|sensor)
+\bcorsi\b|\bdiy air (filter|purifier)|\bbox fan\b
+\bradon\b
+\bnoise (pollution|exposure|level)
+\bgait\b
+\bdysphagia|\bswallow
+\bstutter|\bdyslexi|\bADHD\b
+\bcolou?r.?blind
+\bpesticide residue
+\bhoney (adulter|fraud)|\bfood fraud|\badulterat
+\bmycotoxin|\baflatoxin
+\bcooking oil|\bfrying
+\bwater heater|\blegionella
+\bgrey ?water|\bgraywater
+\bseed (viability|germination)
+\bpothole
+\bpedestrian
+\bschool bus
+\bhot car|\bheatstroke|\bchild left
+\bdrowning|\brip current
+\bvehicle (cabin|interior) temperature
+\blandslide|\bslope stability
+\bearthquake|\bseismic
+\bsinkhole
+\bfrost|\bfreeze damage

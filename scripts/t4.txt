@@ -1,0 +1,10 @@
+textile|fabric (sort|recycl)|fib(er|re) (blend|identif)|cotton.polyester
+plastic (sort|identif)|resin (code|type)|near.infrared|\bnir\b
+leak detect|water leak|pipe leak|acoustic leak
+second.life|state of health|\bsoh\b|spent (battery|cell)|18650|used (battery|cell)
+mmwave|millimeter.wave|radar
+soil (moisture|sensor)|capacitive sensor
+\bflood
+spectromet
+low.cost (sensor|alternative|device)
+no (existing|current|affordable)|lack of (an? )?(affordable|low.cost)|currently no|there is no

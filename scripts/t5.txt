@@ -1,0 +1,6 @@
+time.temperature indicator|thermochromic|irreversible.*(color|colour)|heat indicator
+\bmm.?wave\b|\bmillimeter.wave radar|\bfmcw\b
+self.discharge|micro.?short|internal resistance
+fan (control|speed)|humidity.*fan|smart plug
+as7341|as7265|spectral sensor|low.cost spectromet
+thrift|clothing (waste|recycl)|garment

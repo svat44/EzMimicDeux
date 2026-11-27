@@ -1,0 +1,31 @@
+biofilm
+cpap|sponge|dishwasher|washing machine
+cooling rate|rice|leftover|bacillus cereus
+wet.bulb|heat index|heat stress|heat wave|heatwave
+earbud|headphone|noise.induced|hearing loss
+tinnitus
+indoor air|pm2\.5|particulate matter
+gas stove|cooking emission|stove
+corsi|air purifier|hepa
+wildfire|smoke
+skin tone|pulse oximet|melanin
+insulin|cold chain|refrigerat
+microfiber|laundry|washing
+dryer
+radon
+lead (in|paint|pipe|contamin)|soil lead
+nitrate|arsenic|fluoride
+road salt|chloride|deicing
+varroa
+tick
+mosquito larva|standing water
+sunscreen|uv index|sunburn
+counterfeit|falsified|medication adherence|pill
+dementia|wander|gait
+fall detection|falls
+sleep apnea|snor
+mold|mould|fungal spore
+food waste|expir|spoil|shelf life
+sourdough|ferment|kombucha
+cutting board|kitchen
+wheelchair|pressure ulcer|pressure sore|bedsore

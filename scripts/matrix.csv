@@ -1,0 +1,369 @@
+n,domain,tech,dtot,ttot
+70,hearing/noise,acoustic/audio sensing,305,311
+2,hearing/noise,thermal/IR imaging,305,40
+8,hearing/noise,spectroscopy/colorimetry,305,730
+2,hearing/noise,impedance/electrical,305,56
+25,hearing/noise,vibration/accelerometer,305,231
+12,hearing/noise,radar/lidar,305,88
+0,hearing/noise,gas/chemical sensor,305,42
+26,hearing/noise,computer vision,305,451
+71,hearing/noise,ML/audio-signal,305,1283
+14,hearing/noise,smartphone-as-instrument,305,377
+8,hearing/noise,3D printing/fabrication,305,472
+6,hearing/noise,citizen-science/crowd,305,330
+45,hearing/noise,simulation/modeling,305,1238
+29,hearing/noise,microcontroller/IoT,305,518
+1,hearing/noise,long-term field logging,305,32
+7,hearing/noise,materials/chemistry,305,1594
+35,eyesight/low-vision,acoustic/audio sensing,182,311
+1,eyesight/low-vision,thermal/IR imaging,182,40
+1,eyesight/low-vision,spectroscopy/colorimetry,182,730
+0,eyesight/low-vision,impedance/electrical,182,56
+22,eyesight/low-vision,vibration/accelerometer,182,231
+13,eyesight/low-vision,radar/lidar,182,88
+0,eyesight/low-vision,gas/chemical sensor,182,42
+25,eyesight/low-vision,computer vision,182,451
+18,eyesight/low-vision,ML/audio-signal,182,1283
+24,eyesight/low-vision,smartphone-as-instrument,182,377
+7,eyesight/low-vision,3D printing/fabrication,182,472
+9,eyesight/low-vision,citizen-science/crowd,182,330
+11,eyesight/low-vision,simulation/modeling,182,1238
+34,eyesight/low-vision,microcontroller/IoT,182,518
+0,eyesight/low-vision,long-term field logging,182,32
+3,eyesight/low-vision,materials/chemistry,182,1594
+19,elder-care/falls,acoustic/audio sensing,310,311
+4,elder-care/falls,thermal/IR imaging,310,40
+12,elder-care/falls,spectroscopy/colorimetry,310,730
+1,elder-care/falls,impedance/electrical,310,56
+21,elder-care/falls,vibration/accelerometer,310,231
+4,elder-care/falls,radar/lidar,310,88
+0,elder-care/falls,gas/chemical sensor,310,42
+19,elder-care/falls,computer vision,310,451
+53,elder-care/falls,ML/audio-signal,310,1283
+25,elder-care/falls,smartphone-as-instrument,310,377
+13,elder-care/falls,3D printing/fabrication,310,472
+18,elder-care/falls,citizen-science/crowd,310,330
+20,elder-care/falls,simulation/modeling,310,1238
+20,elder-care/falls,microcontroller/IoT,310,518
+2,elder-care/falls,long-term field logging,310,32
+11,elder-care/falls,materials/chemistry,310,1594
+5,stroke/rehab/prosthetic,acoustic/audio sensing,319,311
+0,stroke/rehab/prosthetic,thermal/IR imaging,319,40
+10,stroke/rehab/prosthetic,spectroscopy/colorimetry,319,730
+2,stroke/rehab/prosthetic,impedance/electrical,319,56
+11,stroke/rehab/prosthetic,vibration/accelerometer,319,231
+1,stroke/rehab/prosthetic,radar/lidar,319,88
+0,stroke/rehab/prosthetic,gas/chemical sensor,319,42
+14,stroke/rehab/prosthetic,computer vision,319,451
+43,stroke/rehab/prosthetic,ML/audio-signal,319,1283
+10,stroke/rehab/prosthetic,smartphone-as-instrument,319,377
+49,stroke/rehab/prosthetic,3D printing/fabrication,319,472
+7,stroke/rehab/prosthetic,citizen-science/crowd,319,330
+19,stroke/rehab/prosthetic,simulation/modeling,319,1238
+44,stroke/rehab/prosthetic,microcontroller/IoT,319,518
+3,stroke/rehab/prosthetic,long-term field logging,319,32
+27,stroke/rehab/prosthetic,materials/chemistry,319,1594
+0,kitchen/food-prep,acoustic/audio sensing,78,311
+0,kitchen/food-prep,thermal/IR imaging,78,40
+8,kitchen/food-prep,spectroscopy/colorimetry,78,730
+1,kitchen/food-prep,impedance/electrical,78,56
+1,kitchen/food-prep,vibration/accelerometer,78,231
+0,kitchen/food-prep,radar/lidar,78,88
+1,kitchen/food-prep,gas/chemical sensor,78,42
+0,kitchen/food-prep,computer vision,78,451
+2,kitchen/food-prep,ML/audio-signal,78,1283
+2,kitchen/food-prep,smartphone-as-instrument,78,377
+1,kitchen/food-prep,3D printing/fabrication,78,472
+0,kitchen/food-prep,citizen-science/crowd,78,330
+3,kitchen/food-prep,simulation/modeling,78,1238
+6,kitchen/food-prep,microcontroller/IoT,78,518
+0,kitchen/food-prep,long-term field logging,78,32
+8,kitchen/food-prep,materials/chemistry,78,1594
+2,drinking-water-home,acoustic/audio sensing,272,311
+0,drinking-water-home,thermal/IR imaging,272,40
+26,drinking-water-home,spectroscopy/colorimetry,272,730
+4,drinking-water-home,impedance/electrical,272,56
+0,drinking-water-home,vibration/accelerometer,272,231
+0,drinking-water-home,radar/lidar,272,88
+1,drinking-water-home,gas/chemical sensor,272,42
+4,drinking-water-home,computer vision,272,451
+12,drinking-water-home,ML/audio-signal,272,1283
+7,drinking-water-home,smartphone-as-instrument,272,377
+10,drinking-water-home,3D printing/fabrication,272,472
+8,drinking-water-home,citizen-science/crowd,272,330
+19,drinking-water-home,simulation/modeling,272,1238
+10,drinking-water-home,microcontroller/IoT,272,518
+1,drinking-water-home,long-term field logging,272,32
+24,drinking-water-home,materials/chemistry,272,1594
+7,indoor-air/home,acoustic/audio sensing,207,311
+1,indoor-air/home,thermal/IR imaging,207,40
+7,indoor-air/home,spectroscopy/colorimetry,207,730
+0,indoor-air/home,impedance/electrical,207,56
+7,indoor-air/home,vibration/accelerometer,207,231
+8,indoor-air/home,radar/lidar,207,88
+3,indoor-air/home,gas/chemical sensor,207,42
+12,indoor-air/home,computer vision,207,451
+16,indoor-air/home,ML/audio-signal,207,1283
+16,indoor-air/home,smartphone-as-instrument,207,377
+9,indoor-air/home,3D printing/fabrication,207,472
+9,indoor-air/home,citizen-science/crowd,207,330
+12,indoor-air/home,simulation/modeling,207,1238
+24,indoor-air/home,microcontroller/IoT,207,518
+1,indoor-air/home,long-term field logging,207,32
+16,indoor-air/home,materials/chemistry,207,1594
+13,clothing/laundry,acoustic/audio sensing,507,311
+1,clothing/laundry,thermal/IR imaging,507,40
+74,clothing/laundry,spectroscopy/colorimetry,507,730
+12,clothing/laundry,impedance/electrical,507,56
+7,clothing/laundry,vibration/accelerometer,507,231
+1,clothing/laundry,radar/lidar,507,88
+8,clothing/laundry,gas/chemical sensor,507,42
+4,clothing/laundry,computer vision,507,451
+15,clothing/laundry,ML/audio-signal,507,1283
+16,clothing/laundry,smartphone-as-instrument,507,377
+48,clothing/laundry,3D printing/fabrication,507,472
+3,clothing/laundry,citizen-science/crowd,507,330
+57,clothing/laundry,simulation/modeling,507,1238
+20,clothing/laundry,microcontroller/IoT,507,518
+3,clothing/laundry,long-term field logging,507,32
+168,clothing/laundry,materials/chemistry,507,1594
+3,sleep/bedroom,acoustic/audio sensing,78,311
+1,sleep/bedroom,thermal/IR imaging,78,40
+0,sleep/bedroom,spectroscopy/colorimetry,78,730
+0,sleep/bedroom,impedance/electrical,78,56
+3,sleep/bedroom,vibration/accelerometer,78,231
+0,sleep/bedroom,radar/lidar,78,88
+0,sleep/bedroom,gas/chemical sensor,78,42
+2,sleep/bedroom,computer vision,78,451
+8,sleep/bedroom,ML/audio-signal,78,1283
+5,sleep/bedroom,smartphone-as-instrument,78,377
+2,sleep/bedroom,3D printing/fabrication,78,472
+9,sleep/bedroom,citizen-science/crowd,78,330
+5,sleep/bedroom,simulation/modeling,78,1238
+9,sleep/bedroom,microcontroller/IoT,78,518
+0,sleep/bedroom,long-term field logging,78,32
+1,sleep/bedroom,materials/chemistry,78,1594
+13,children/toys/school,acoustic/audio sensing,350,311
+2,children/toys/school,thermal/IR imaging,350,40
+12,children/toys/school,spectroscopy/colorimetry,350,730
+2,children/toys/school,impedance/electrical,350,56
+9,children/toys/school,vibration/accelerometer,350,231
+1,children/toys/school,radar/lidar,350,88
+0,children/toys/school,gas/chemical sensor,350,42
+21,children/toys/school,computer vision,350,451
+47,children/toys/school,ML/audio-signal,350,1283
+34,children/toys/school,smartphone-as-instrument,350,377
+15,children/toys/school,3D printing/fabrication,350,472
+25,children/toys/school,citizen-science/crowd,350,330
+21,children/toys/school,simulation/modeling,350,1238
+33,children/toys/school,microcontroller/IoT,350,518
+1,children/toys/school,long-term field logging,350,32
+15,children/toys/school,materials/chemistry,350,1594
+6,pets/livestock,acoustic/audio sensing,235,311
+2,pets/livestock,thermal/IR imaging,235,40
+6,pets/livestock,spectroscopy/colorimetry,235,730
+0,pets/livestock,impedance/electrical,235,56
+3,pets/livestock,vibration/accelerometer,235,231
+1,pets/livestock,radar/lidar,235,88
+1,pets/livestock,gas/chemical sensor,235,42
+13,pets/livestock,computer vision,235,451
+16,pets/livestock,ML/audio-signal,235,1283
+7,pets/livestock,smartphone-as-instrument,235,377
+5,pets/livestock,3D printing/fabrication,235,472
+4,pets/livestock,citizen-science/crowd,235,330
+13,pets/livestock,simulation/modeling,235,1238
+10,pets/livestock,microcontroller/IoT,235,518
+0,pets/livestock,long-term field logging,235,32
+30,pets/livestock,materials/chemistry,235,1594
+2,bees/pollinators,acoustic/audio sensing,111,311
+0,bees/pollinators,thermal/IR imaging,111,40
+2,bees/pollinators,spectroscopy/colorimetry,111,730
+0,bees/pollinators,impedance/electrical,111,56
+2,bees/pollinators,vibration/accelerometer,111,231
+0,bees/pollinators,radar/lidar,111,88
+0,bees/pollinators,gas/chemical sensor,111,42
+3,bees/pollinators,computer vision,111,451
+7,bees/pollinators,ML/audio-signal,111,1283
+4,bees/pollinators,smartphone-as-instrument,111,377
+4,bees/pollinators,3D printing/fabrication,111,472
+1,bees/pollinators,citizen-science/crowd,111,330
+6,bees/pollinators,simulation/modeling,111,1238
+3,bees/pollinators,microcontroller/IoT,111,518
+0,bees/pollinators,long-term field logging,111,32
+9,bees/pollinators,materials/chemistry,111,1594
+6,roads/pedestrians,acoustic/audio sensing,48,311
+0,roads/pedestrians,thermal/IR imaging,48,40
+0,roads/pedestrians,spectroscopy/colorimetry,48,730
+0,roads/pedestrians,impedance/electrical,48,56
+4,roads/pedestrians,vibration/accelerometer,48,231
+1,roads/pedestrians,radar/lidar,48,88
+0,roads/pedestrians,gas/chemical sensor,48,42
+7,roads/pedestrians,computer vision,48,451
+9,roads/pedestrians,ML/audio-signal,48,1283
+4,roads/pedestrians,smartphone-as-instrument,48,377
+5,roads/pedestrians,3D printing/fabrication,48,472
+0,roads/pedestrians,citizen-science/crowd,48,330
+3,roads/pedestrians,simulation/modeling,48,1238
+7,roads/pedestrians,microcontroller/IoT,48,518
+0,roads/pedestrians,long-term field logging,48,32
+1,roads/pedestrians,materials/chemistry,48,1594
+14,disaster/flood/fire,acoustic/audio sensing,267,311
+7,disaster/flood/fire,thermal/IR imaging,267,40
+3,disaster/flood/fire,spectroscopy/colorimetry,267,730
+0,disaster/flood/fire,impedance/electrical,267,56
+13,disaster/flood/fire,vibration/accelerometer,267,231
+11,disaster/flood/fire,radar/lidar,267,88
+2,disaster/flood/fire,gas/chemical sensor,267,42
+19,disaster/flood/fire,computer vision,267,451
+40,disaster/flood/fire,ML/audio-signal,267,1283
+11,disaster/flood/fire,smartphone-as-instrument,267,377
+13,disaster/flood/fire,3D printing/fabrication,267,472
+6,disaster/flood/fire,citizen-science/crowd,267,330
+42,disaster/flood/fire,simulation/modeling,267,1238
+19,disaster/flood/fire,microcontroller/IoT,267,518
+0,disaster/flood/fire,long-term field logging,267,32
+3,disaster/flood/fire,materials/chemistry,267,1594
+4,waste/recycling,acoustic/audio sensing,349,311
+0,waste/recycling,thermal/IR imaging,349,40
+21,waste/recycling,spectroscopy/colorimetry,349,730
+0,waste/recycling,impedance/electrical,349,56
+1,waste/recycling,vibration/accelerometer,349,231
+0,waste/recycling,radar/lidar,349,88
+1,waste/recycling,gas/chemical sensor,349,42
+6,waste/recycling,computer vision,349,451
+13,waste/recycling,ML/audio-signal,349,1283
+3,waste/recycling,smartphone-as-instrument,349,377
+16,waste/recycling,3D printing/fabrication,349,472
+3,waste/recycling,citizen-science/crowd,349,330
+20,waste/recycling,simulation/modeling,349,1238
+8,waste/recycling,microcontroller/IoT,349,518
+0,waste/recycling,long-term field logging,349,32
+67,waste/recycling,materials/chemistry,349,1594
+0,small-farm/soil,acoustic/audio sensing,158,311
+1,small-farm/soil,thermal/IR imaging,158,40
+6,small-farm/soil,spectroscopy/colorimetry,158,730
+0,small-farm/soil,impedance/electrical,158,56
+0,small-farm/soil,vibration/accelerometer,158,231
+1,small-farm/soil,radar/lidar,158,88
+0,small-farm/soil,gas/chemical sensor,158,42
+2,small-farm/soil,computer vision,158,451
+9,small-farm/soil,ML/audio-signal,158,1283
+10,small-farm/soil,smartphone-as-instrument,158,377
+0,small-farm/soil,3D printing/fabrication,158,472
+3,small-farm/soil,citizen-science/crowd,158,330
+11,small-farm/soil,simulation/modeling,158,1238
+16,small-farm/soil,microcontroller/IoT,158,518
+0,small-farm/soil,long-term field logging,158,32
+20,small-farm/soil,materials/chemistry,158,1594
+4,medication/pharmacy,acoustic/audio sensing,216,311
+0,medication/pharmacy,thermal/IR imaging,216,40
+10,medication/pharmacy,spectroscopy/colorimetry,216,730
+1,medication/pharmacy,impedance/electrical,216,56
+5,medication/pharmacy,vibration/accelerometer,216,231
+0,medication/pharmacy,radar/lidar,216,88
+0,medication/pharmacy,gas/chemical sensor,216,42
+1,medication/pharmacy,computer vision,216,451
+17,medication/pharmacy,ML/audio-signal,216,1283
+14,medication/pharmacy,smartphone-as-instrument,216,377
+7,medication/pharmacy,3D printing/fabrication,216,472
+8,medication/pharmacy,citizen-science/crowd,216,330
+17,medication/pharmacy,simulation/modeling,216,1238
+14,medication/pharmacy,microcontroller/IoT,216,518
+0,medication/pharmacy,long-term field logging,216,32
+21,medication/pharmacy,materials/chemistry,216,1594
+5,dental/oral,acoustic/audio sensing,208,311
+0,dental/oral,thermal/IR imaging,208,40
+16,dental/oral,spectroscopy/colorimetry,208,730
+0,dental/oral,impedance/electrical,208,56
+5,dental/oral,vibration/accelerometer,208,231
+1,dental/oral,radar/lidar,208,88
+1,dental/oral,gas/chemical sensor,208,42
+1,dental/oral,computer vision,208,451
+7,dental/oral,ML/audio-signal,208,1283
+2,dental/oral,smartphone-as-instrument,208,377
+8,dental/oral,3D printing/fabrication,208,472
+3,dental/oral,citizen-science/crowd,208,330
+27,dental/oral,simulation/modeling,208,1238
+4,dental/oral,microcontroller/IoT,208,518
+0,dental/oral,long-term field logging,208,32
+29,dental/oral,materials/chemistry,208,1594
+1,skin/sun,acoustic/audio sensing,224,311
+3,skin/sun,thermal/IR imaging,224,40
+19,skin/sun,spectroscopy/colorimetry,224,730
+0,skin/sun,impedance/electrical,224,56
+0,skin/sun,vibration/accelerometer,224,231
+0,skin/sun,radar/lidar,224,88
+0,skin/sun,gas/chemical sensor,224,42
+13,skin/sun,computer vision,224,451
+25,skin/sun,ML/audio-signal,224,1283
+10,skin/sun,smartphone-as-instrument,224,377
+10,skin/sun,3D printing/fabrication,224,472
+1,skin/sun,citizen-science/crowd,224,330
+18,skin/sun,simulation/modeling,224,1238
+2,skin/sun,microcontroller/IoT,224,518
+0,skin/sun,long-term field logging,224,32
+45,skin/sun,materials/chemistry,224,1594
+14,mental/stress,acoustic/audio sensing,585,311
+0,mental/stress,thermal/IR imaging,585,40
+22,mental/stress,spectroscopy/colorimetry,585,730
+2,mental/stress,impedance/electrical,585,56
+17,mental/stress,vibration/accelerometer,585,231
+1,mental/stress,radar/lidar,585,88
+2,mental/stress,gas/chemical sensor,585,42
+9,mental/stress,computer vision,585,451
+35,mental/stress,ML/audio-signal,585,1283
+23,mental/stress,smartphone-as-instrument,585,377
+19,mental/stress,3D printing/fabrication,585,472
+38,mental/stress,citizen-science/crowd,585,330
+47,mental/stress,simulation/modeling,585,1238
+12,mental/stress,microcontroller/IoT,585,518
+1,mental/stress,long-term field logging,585,32
+50,mental/stress,materials/chemistry,585,1594
+30,speech/communication,acoustic/audio sensing,202,311
+0,speech/communication,thermal/IR imaging,202,40
+3,speech/communication,spectroscopy/colorimetry,202,730
+0,speech/communication,impedance/electrical,202,56
+12,speech/communication,vibration/accelerometer,202,231
+2,speech/communication,radar/lidar,202,88
+0,speech/communication,gas/chemical sensor,202,42
+18,speech/communication,computer vision,202,451
+63,speech/communication,ML/audio-signal,202,1283
+16,speech/communication,smartphone-as-instrument,202,377
+6,speech/communication,3D printing/fabrication,202,472
+9,speech/communication,citizen-science/crowd,202,330
+11,speech/communication,simulation/modeling,202,1238
+23,speech/communication,microcontroller/IoT,202,518
+0,speech/communication,long-term field logging,202,32
+13,speech/communication,materials/chemistry,202,1594
+16,buildings/housing,acoustic/audio sensing,567,311
+2,buildings/housing,thermal/IR imaging,567,40
+30,buildings/housing,spectroscopy/colorimetry,567,730
+5,buildings/housing,impedance/electrical,567,56
+11,buildings/housing,vibration/accelerometer,567,231
+7,buildings/housing,radar/lidar,567,88
+1,buildings/housing,gas/chemical sensor,567,42
+27,buildings/housing,computer vision,567,451
+50,buildings/housing,ML/audio-signal,567,1283
+29,buildings/housing,smartphone-as-instrument,567,377
+33,buildings/housing,3D printing/fabrication,567,472
+15,buildings/housing,citizen-science/crowd,567,330
+70,buildings/housing,simulation/modeling,567,1238
+41,buildings/housing,microcontroller/IoT,567,518
+1,buildings/housing,long-term field logging,567,32
+69,buildings/housing,materials/chemistry,567,1594
+20,public-transit/vehicles,acoustic/audio sensing,330,311
+3,public-transit/vehicles,thermal/IR imaging,330,40
+2,public-transit/vehicles,spectroscopy/colorimetry,330,730
+0,public-transit/vehicles,impedance/electrical,330,56
+9,public-transit/vehicles,vibration/accelerometer,330,231
+5,public-transit/vehicles,radar/lidar,330,88
+1,public-transit/vehicles,gas/chemical sensor,330,42
+70,public-transit/vehicles,computer vision,330,451
+164,public-transit/vehicles,ML/audio-signal,330,1283
+31,public-transit/vehicles,smartphone-as-instrument,330,377
+7,public-transit/vehicles,3D printing/fabrication,330,472
+11,public-transit/vehicles,citizen-science/crowd,330,330
+39,public-transit/vehicles,simulation/modeling,330,1238
+39,public-transit/vehicles,microcontroller/IoT,330,518
+0,public-transit/vehicles,long-term field logging,330,32
+11,public-transit/vehicles,materials/chemistry,330,1594

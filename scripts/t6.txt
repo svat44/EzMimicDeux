@@ -1,0 +1,5 @@
+ultrasonic.*(plant|leaf|stem|drought|tomato)|(plant|drought|tomato).*ultrasonic|plant (acoustic|sound|click)|cavitation
+stored (grain|product)|grain (storage|bin|weevil)|weevil|post.?harvest
+refrigerator|fridge
+water stress|drought stress|irrigation (schedul|control)|soil moisture
+\bdata logger|long.term (monitor|data|measure)

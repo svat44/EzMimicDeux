@@ -1,0 +1,7 @@
+thicken|iddsi
+\bslip(pery)?\b|\bslip resist|\bcoefficient of friction
+inhaler|albuterol
+insulin pen|\bepipen|auto.?injector
+\bear (canal|simulator)|\bhead and torso|\bacoustic coupler
+wet.bulb|\bheat (illness|exhaustion|wave)
+oximeter|spo2
