@@ -77,7 +77,7 @@ Use many narrow Haiku subagents (`model: "haiku"`), up to 8 running at once, abo
 - Do not weaken a test or requirement to pass.
 - Install only LeRobot and its required dependencies, plus the packages already pinned. Delete only files you created in this session.
 - The repo is public. Never commit keys, tokens, personal details, datasets or virtual environments.
-- Commit locally on `step3-dataset` with a GitHub no-reply email. Ask before pushing or merging into `main`.
+- Commit locally on `step3-dataset` with a GitHub no-reply email. Push the branch after every commit without asking. Ask before merging into `main`.
 
 ## Final report
 Each "Done when" item with command and result; counts per dataset; disk use; agents used; anything unverified or still open.
